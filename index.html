@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EditFlow</title>
+
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap"
+        rel="stylesheet">
+    <!-- Google Font Link -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="canvas-container">
+            <!-- toolbar starts here -->
+            <div class="tool-bar-container">
+                <h2>EditFlow</h2>
+                <div class="tool-bar">
+                    <label>Font Family</label>
+                    <select id="font-family">
+                        <option value="roboto" selected>roboto</option>
+                        <option value="sarif">Sarif</option>
+                        <option value="vw">VW</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </div>
+
+                <div class="tool-bar">
+                    <label>Font Size</label>
+                    <input type="number" placeholder="Font size">
+                </div>
+
+                <div class="tool-bar">
+                    <label>Color</label>
+                    <input type="color" placeholder="select color">
+                </div>
+
+                <div class="tool-bar">
+                    <button class="btn">Add New Text</button>
+                </div>
+            </div>
+            <!-- toolbar ends here -->
+
+            <!-- Canvas bord starts here -->
+            <div class="canvas-bord">page</div>
+            <!-- Canvas bord ends here -->
+        </div>
+    </div>
+</body>
+
+</html>
